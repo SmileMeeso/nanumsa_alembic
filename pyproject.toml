@@ -1,0 +1,19 @@
+[project]
+name = "nanumsa-alembic"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "SmileMeeso",email = "m950827@naver.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic (>=1.14.1,<2.0.0)",
+    "boto3 (>=1.36.17,<2.0.0)",
+    "sqlalchemy (>=2.0.38,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
